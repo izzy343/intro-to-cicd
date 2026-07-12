@@ -9,3 +9,4 @@ function sayBye(name) {
 }
 
 module.exports = sayHi
+module.exports = sayBye
