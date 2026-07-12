@@ -3,4 +3,9 @@ function sayHi(name) {
   return `Hello ${name}`
 }
 
-module.exports = sayHi
+//This function says bye to someone when called with their name as an argument
+function sayBye(name) {
+  return `Bye ${name}`
+}
+
+module.exports = {sayHi, sayBye}
