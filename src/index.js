@@ -8,5 +8,4 @@ function sayBye(name) {
   return `Bye ${name}`
 }
 
-module.exports = sayHi
-module.exports = sayBye
+module.exports = {sayHi, sayBye}
